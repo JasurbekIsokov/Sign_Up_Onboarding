@@ -17,6 +17,7 @@ header{
 }
 .image-1 img{
   width: 20rem;
+  padding: 5rem 1rem;
   background-color: blue;
   border: none;
 }
