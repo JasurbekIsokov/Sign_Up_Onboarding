@@ -4,13 +4,15 @@
   font-family: sans-serif;
 }
 header {
-  background-color: rgba(255, 228, 196, 0.329);
+  background-image: url(SignUpOnBoarding/Card\ Base1.jpg);
+ background-size: cover;
   width: 60%;
   margin: 3rem auto;
   padding: 5rem;
   border-radius: 2rem;
 }
 .first {
+ 
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -44,24 +46,34 @@ header {
 .inputs{
   margin-top: 2rem;
 }
-input{
+input, .gender{
   display: block;
-  border: 0.05rem solid pink;
+ border: none;
   border-radius: 0.3rem;
   padding: 0.3rem;
   margin-top: 0.3rem;
   width: 14rem;
 }
+.number-input{
+  text-align: center;
+}
+.bith{
+  border: none;
+  border-radius: 0.1rem;
+  width: 4rem;
+  height: 1.7rem;
+}
 .inputs div{
   margin-bottom: 1rem;
 }
 .forms{
-  background-color: white;
-  padding-left:7rem;
-  padding-right: 3rem;
-  margin-left: -0.01rem;
-  padding-top: 0.5rem;
-  padding-bottom: 1rem;
+  background-color: rgba(255, 255, 255, 0);
+  /* padding-left:7rem; */
+  /* padding-right: 3rem; */
+  margin-left: 32rem;
+  /* padding-top: 0.5rem;
+  padding-bottom: 1rem; */
+
 }
 .inputs button{
   background-color: blue;
