@@ -26,3 +26,21 @@ header{
   justify-content: flex-end;
   font-size: 1.6rem;
 }
+.section-a{
+  margin-top: 1rem;
+}
+.section-a a{
+ 
+  color: gray;
+  text-decoration: none;
+  margin-right: 0.5rem;
+  padding-bottom: 0.3rem;
+}
+.section-a .child1{
+  border-bottom: 0.1rem solid gray;
+
+}
+.section-a .child2{
+  border-bottom: 0.1rem solid rgb(0, 0, 255);
+
+}
