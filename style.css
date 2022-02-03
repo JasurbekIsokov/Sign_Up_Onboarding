@@ -1,46 +1,41 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
-header{
+header {
   background-color: bisque;
   width: 60%;
   margin: 3rem auto;
   padding: 5rem;
-
 }
-.first{
+.first {
   display: flex;
   justify-content: space-evenly;
-  
 }
-.image-1 img{
+.image-1 img {
   width: 20rem;
   padding: 5rem 1rem;
   background-color: blue;
   border: none;
 }
-.icon{
+.icon {
   display: flex;
   justify-content: flex-end;
   font-size: 1.6rem;
 }
-.section-a{
+.section-a {
   margin-top: 1rem;
 }
-.section-a a{
- 
+.section-a a {
   color: gray;
   text-decoration: none;
   margin-right: 0.5rem;
   padding-bottom: 0.3rem;
 }
-.section-a .child1{
+.section-a .child1 {
   border-bottom: 0.1rem solid gray;
-
 }
-.section-a .child2{
+.section-a .child2 {
   border-bottom: 0.1rem solid rgb(0, 0, 255);
-
 }
