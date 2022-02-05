@@ -4,11 +4,12 @@
   font-family: sans-serif;
 }
 header {
-  background-color: rgba(110, 108, 104, 0.192);
+  background-color: #ced4da;
+  ackground-size: cover;
   width: 60%;
   margin: 3rem auto;
   padding: 5rem;
-  border-radius: 2rem;
+
 }
 .first {
   display: flex;
@@ -18,7 +19,8 @@ header {
 .image-1 img {
   width: 22rem;
   padding: 8rem 1rem;
-  /* background-color: blue; */
+  background-color: #f1f3f5;
+  margin-left: 3rem;
   border: none;
 }
 .icon {

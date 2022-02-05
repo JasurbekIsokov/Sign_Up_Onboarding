@@ -76,7 +76,7 @@ input, .gender{
 
 }
 .inputs button{
-  background-color: blue;
+  background-color: rgb(156, 125, 38);
   color: white;
   border: none;
   width: 14rem;

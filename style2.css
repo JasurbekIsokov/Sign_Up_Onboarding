@@ -4,11 +4,11 @@
   font-family: sans-serif;
 }
 header {
-  background-color: rgba(255, 228, 196, 0.329);
+  background-color: #ced4da;
   width: 60%;
   margin: 3rem auto;
   padding: 5rem;
-  border-radius: 2rem;
+
 }
 .first {
   display: flex;
@@ -16,15 +16,17 @@ header {
   align-items: center;
 }
 .image-1 img {
-  width: 22rem;
+  width: 19rem;
   padding: 8rem 1rem;
-  /* background-color: blue; */
+  background-color: rgba(62, 62, 63, 0.171);
   border: none;
+  margin-left: 8rem;
 }
 .icon {
   display: flex;
   justify-content: flex-end;
   font-size: 1.6rem;
+  margin-left: 10rem;
 }
 .section-a {
   margin-top: 1rem;
@@ -43,6 +45,7 @@ header {
 }
 .inputs{
   margin-top: 2rem;
+  width: 18rem;
 }
 input{
   display: block;
@@ -60,8 +63,9 @@ input{
   padding-left:7rem;
   padding-right: 3rem;
   margin-left: -0.01rem;
-  padding-top: 0.5rem;
-  padding-bottom: 1rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  margin-right: 3rem;
 }
 .inputs button{
   background-color: blue;
@@ -77,6 +81,5 @@ opacity: 0.5;
 }
 .inputs p{
   font-size: 0.8rem;
-  text-align: center;
   margin-top: 0.2rem;
 }

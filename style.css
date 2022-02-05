@@ -3,28 +3,33 @@
   padding: 0;
   font-family: sans-serif;
 }
+
 header {
-  background-color: rgba(255, 228, 196, 0.329);
+  background-color: #ced4da;
   width: 60%;
   margin: 3rem auto;
   padding: 5rem;
-  border-radius: 2rem;
 }
 .first {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  height: 30rem;
+  /* box-shadow: 0rem 0rem 1rem gray; */
 }
 .image-1 img {
-  width: 22rem;
+  width: 19rem;
   padding: 8rem 1rem;
-  background-color: blue;
+  background-color: rgb(0, 0, 255);
   border: none;
+  margin-left: 8rem;
 }
 .icon {
   display: flex;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   font-size: 1.6rem;
+  margin-top:1rem;
+  padding-left: 250px;
 }
 .section-a {
   margin-top: 1rem;
@@ -41,42 +46,48 @@ header {
 .section-a .child2 {
   border-bottom: 0.1rem solid rgb(0, 0, 255);
 }
-.inputs{
-  margin-top: 2rem;
+.inputs {
+  margin-top: 3.5rem;
+  position: relative;
+ bottom: 1rem;
+ 
 }
-input{
+input {
   display: block;
-  border: 0.05rem solid pink;
+  border: 0.05rem solid gray;
   border-radius: 0.3rem;
-  padding: 0.3rem;
-  margin-top: 0.3rem;
+  padding: 0.4rem;
+  margin-top: 0.2rem;
   width: 14rem;
 }
-.inputs div{
+.inputs div {
   margin-bottom: 1rem;
 }
-.forms{
+.forms {
   background-color: white;
   padding-left:7rem;
   padding-right: 3rem;
-  margin-left: -1.8rem;
-  padding-top: 0.5rem;
-  padding-bottom: 1rem;
+  /* margin-left: -0.01rem; */
+  /* padding-top: 0.1rem; */
+ padding-bottom: 5rem;
+  height: 356px;
+  /* margin-right: 3rem; */
 }
-.inputs button{
+.inputs button {
   background-color: blue;
   color: white;
   border: none;
   width: 14rem;
   padding: 0.4rem;
   border-radius: 0.3rem;
+  transition: 0.5s ease-in;
 }
-.inputs button:hover{
+.inputs button:hover {
+  transform: scale(1.1);
   cursor: pointer;
-opacity: 0.5;
+  opacity: 0.5;
 }
-.inputs p{
+.inputs p {
   font-size: 0.8rem;
-  text-align: center;
   margin-top: 0.2rem;
 }

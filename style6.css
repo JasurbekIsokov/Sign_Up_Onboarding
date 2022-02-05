@@ -4,11 +4,11 @@
   font-family: sans-serif;
 }
 header {
-  background-color: rgba(110, 108, 104, 0.192);
+  background-color: #ced4da;
   width: 60%;
   margin: 3rem auto;
   padding: 5rem;
-  border-radius: 2rem;
+ 
 }
 .first {
   display: flex;
@@ -69,6 +69,7 @@ input, .gender{
   margin-bottom: 1rem;
 }
 .forms{
+  border: 0.5rem solid white;
   background-color: white;
   padding-left:7rem;
   padding-right: 3rem;
