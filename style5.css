@@ -4,12 +4,16 @@
   font-family: sans-serif;
 }
 header {
-  background-color: #ced4da;
-  ackground-size: cover;
-  width: 60%;
+  width: 70%;
   margin: 3rem auto;
-  padding: 5rem;
+  background-color: #f4f6fc;
+padding: 5rem;  
 
+}
+h1{
+  color:#868e96;
+  font-weight: 500;
+  font-size: 1.4rem;
 }
 .first {
   display: flex;
@@ -19,15 +23,11 @@ header {
 .image-1 img {
   width: 22rem;
   padding: 8rem 1rem;
-  background-color: #f1f3f5;
+  background-color: #f9faff;
   margin-left: 3rem;
   border: none;
 }
-.icon {
-  display: flex;
-  justify-content: flex-end;
-  font-size: 1.6rem;
-}
+
 .section-a {
   margin-top: 1rem;
 }
@@ -54,28 +54,44 @@ input, .gender{
   margin-top: 0.3rem;
   width: 14rem;
   background-color: rgba(128, 128, 128, 0.11);
+height: 1.5rem;
+}
+.gender{
+  height: 2rem;
+}
+label{
+  color: #868e96;
 }
 .number-input{
   text-align: center;
+  margin-right: 0.6rem;
+}
+.number-input label{
+  margin-right: 8.7rem;
 }
 .bith{
   border: none;
   border-radius: 0.1rem;
-  width: 4rem;
-  height: 1.7rem;
-  background-color: rgba(128, 128, 128, 0.11);
-
+  width: 4.5rem;
+  height: 2rem;
+  margin-left: 0.1rem;
+  background-color: #e9ecef;
+border-radius: 0.2rem;
 }
 .inputs div{
   margin-bottom: 1rem;
 }
 .forms{
+  border: 0.5rem solid white;
   background-color: white;
   padding-left:7rem;
   padding-right: 3rem;
-  margin-left: -0.01rem;
-  padding-top: 0.5rem;
-  padding-bottom: 1rem;
+  margin-left: -3rem;
+/* margin-top: 2rem; */
+  height: 27.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .inputs button{
   background-color: blue;
@@ -90,7 +106,9 @@ input, .gender{
 opacity: 0.5;
 }
 .inputs p{
-  font-size: 0.8rem;
-  text-align: center;
-  margin-top: 0.2rem;
+color: #868e96;
+font-size: 0.8rem;
+}
+.inputs p a{
+  text-decoration: none;
 }
