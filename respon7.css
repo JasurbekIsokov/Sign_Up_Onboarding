@@ -1,0 +1,18 @@
+@media (max-width: 600px) {
+  .forms-right {
+    display: none;
+  }
+  header {
+    background-color: white;
+
+    padding-left: 0px;
+    margin: 0 auto;
+  }
+  .number-input label{
+    width: 30rem;
+    margin-left: -0.19rem;
+  }
+  .bith {
+    width: 4rem;
+  }
+}
