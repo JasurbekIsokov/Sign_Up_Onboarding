@@ -1,1 +1,15 @@
-@media (max-width:)
+@media (max-width:600px){
+html{
+  font-size: 62.5%;
+}
+  img{
+  width: 100rem;
+  display: block;
+  position: relative;
+  bottom: 34rem;
+left: 25rem;
+}
+.image-1{
+  background-color: white;
+}
+}

@@ -11,15 +11,21 @@ header {
   padding: 5rem;
 
 }
+h1{
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: gray;
+}
 .first {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  box-shadow: 0px 0px 8px gray;
 }
 .image-1 img {
   width: 19rem;
   padding: 8rem 1rem;
-  background-color: rgba(62, 62, 63, 0.171);
+  background-color: #f4f6fc;
   border: none;
   margin-left: 8rem;
 }
@@ -50,7 +56,7 @@ header {
 }
 input{
   display: block;
-  border: 0.05rem solid pink;
+  border: 0.05rem solid rgba(128, 128, 128, 0.151);
   border-radius: 0.3rem;
   padding: 0.3rem;
   margin-top: 0.3rem;
@@ -60,14 +66,17 @@ input{
   margin-bottom: 1rem;
 }
 .forms{
-  border: 0.5rem solid white;
   background-color: white;
   padding-left:7rem;
   padding-right: 3rem;
-  margin-left: -0.01rem;
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
-  margin-right: 3rem;
+  /* margin-left: -0.01rem; */
+  /* padding-top: 0.1rem; */
+ padding-bottom: 5rem;
+  height: 356px;
+  /* margin-right: 3rem; */
+}
+label, p{
+  color: gray;
 }
 .inputs button{
   background-color: blue;

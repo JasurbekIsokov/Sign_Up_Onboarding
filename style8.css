@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  width: 70%;
+  margin: 3rem auto;
+  background-color: #f4f6fc;
+padding: 5rem;  
+}
+h1{
+  margin-right: 7rem;
+  font-size: 1.5rem;
+  color: gray;
+  font-weight: 500;
+}
+label, a{
+  font-size: 0.8rem;
+  color: gray;
+  text-decoration: none;
+}
+.aone{
+  align-self: flex-start;
+  margin-left: 6.5rem;
+  margin-top: 1rem;
+}
+
+input {
+  display: block;
+  width: 11rem;
+  padding: 0.3rem;
+  
+  border-radius: 0.2rem;
+  border: 0.1rem solid rgba(128, 128, 128, 0.336);
+  background-color: rgba(128, 128, 128, 0.068);
+}
+button{
+  background-color: #495057;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  width: 12rem;
+  height: 1.5rem;
+  
+}
+button:hover{
+  background-color: #212529;
+  cursor: pointer;
+}
+.bottom-text{
+  font-size: 0.54rem;
+  color: gray;
+  margin-top: 0.5rem;
+}
+.bottom-text a{
+  font-size: 0.54rem;
+  color: blue;
+}
+.forms-left {
+  width: 25rem;
+
+  height: 470px;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+  margin-top: 2rem;
+  background-color: rgb(255, 255, 255);
+}
+.forms-left div {
+  margin-top: 1rem;
+}
+
+.forms-signin {
+  display: flex;
+}
+.forms-right img {
+  margin-top: 2rem;
+  width: 30rem;
+  height: 29.4rem;
+}

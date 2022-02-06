@@ -55,8 +55,8 @@ input, .gender{
   width: 14rem;
   background-color: rgba(128, 128, 128, 0.11);
 }
-.number-input{
-  text-align: center;
+.number-input label{
+  margin-right: 8.7rem;
 }
 .bith{
   border: none;
@@ -69,13 +69,18 @@ input, .gender{
 .inputs div{
   margin-bottom: 1rem;
 }
+h1{
+  color: gray;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
 .forms{
-  border: 0.5rem solid white;
+  border: 1.2rem solid white;
   background-color: white;
   padding-left:7rem;
   padding-right: 3rem;
   margin-left: -0.01rem;
-  padding-top: 0.5rem;
+  padding-top:  1.0rem;
   padding-bottom: 1rem;
 }
 .inputs button{

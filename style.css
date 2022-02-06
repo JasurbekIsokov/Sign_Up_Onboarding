@@ -11,6 +11,11 @@ header {
   margin: 3rem auto;
   padding: 5rem;
 }
+h1{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: gray ;
+}
 .first {
   display: flex;
   justify-content: space-evenly;
@@ -48,18 +53,21 @@ header {
   border-bottom: 0.1rem solid rgb(0, 0, 255);
 }
 .inputs {
-  margin-top: 3.5rem;
+  margin-top: 2rem;
   position: relative;
  bottom: 1rem;
  
 }
 input {
   display: block;
-  border: 0.05rem solid gray;
+  border: 0.001rem solid rgba(128, 128, 128, 0.11);
   border-radius: 0.3rem;
   padding: 0.4rem;
-  margin-top: 0.2rem;
+  margin-top: 0.01rem;
   width: 14rem;
+}
+label, p{
+  color: gray;
 }
 .inputs div {
   margin-bottom: 1rem;
