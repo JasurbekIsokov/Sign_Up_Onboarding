@@ -1,0 +1,26 @@
+@media (max-width:600px){
+  h1{
+    color: rgb(255, 255, 255);
+  }
+  .child1, .child2{
+    font-size: 1.2rem;
+
+  }
+  .section-a a{
+    color: white;
+  }
+  .email-input label{
+    color: white;
+  }
+  .password-input{
+    color: orange;
+    font-weight: 900;
+  }
+  input{
+    height: 2rem;
+  }
+  .number-input label{
+    
+    font-size: 1.5rem;
+  }
+}
