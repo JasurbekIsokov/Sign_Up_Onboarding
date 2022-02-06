@@ -1,15 +1,47 @@
-@media (max-width:600px){
-html{
-  font-size: 62.5%;
-}
-  img{
-  width: 100rem;
-  display: block;
-  position: relative;
-  bottom: 34rem;
-left: 25rem;
-}
-.image-1{
-  background-color: white;
-}
+@media (max-width: 600px) {
+  html {
+    font-size: 62.5%;
+  }
+  
+  img {
+display: none;
+  }
+  .forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+    margin-top: rem;
+  }
+  label, p{
+    font-size: 1.5rem;
+  }
+  i{
+    display: none;
+    color: white;
+  }
+  input{
+    width: 90%;
+    margin: 0 auto;
+    height: 2rem;
+  }
+  .first{
+    box-shadow: 0rem 0rem 0rem white;
+  }
+  header {
+    background-color: white;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  .fal {
+    display: none;
+  }
+  .image-1 {
+    background-color: white;
+  }
+  .forms {
+    position: relative;
+    bottom: 5rem;
+  }
 }

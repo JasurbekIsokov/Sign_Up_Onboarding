@@ -1,0 +1,46 @@
+@media (max-width:600px){
+  html{
+    font-size: 62.5%;
+  }
+header{
+  background-color: white;
+}
+
+.forms{
+position: relative;
+  right: 15rem;
+}
+.section-a{
+  width: 20rem;
+}
+i{
+  opacity: 0;
+  font-size: 0rem;
+}
+input {
+  width: 90%;
+}
+p,label{
+  font-size: 1.2rem;
+}
+.inputs p{
+  font-size: 1.2rem;
+}
+.inputs p a{
+  font-weight: 800;
+  text-decoration: white;
+}
+.number-input{
+  width: 20rem;
+margin-top: 2rem;
+}
+.number-input label{
+  margin-right: 13rem;
+}
+.bith{
+  margin-top: 1rem;
+  height: 3rem;
+  width: 5rem;
+  margin-right: 1.2rem;
+}
+}
