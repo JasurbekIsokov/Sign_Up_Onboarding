@@ -2,6 +2,18 @@
   .forms-right {
     display: none;
   }
+  .forms-left{
+    width: 90%;
+    margin: 0 auto;
+    height: 20rem;  
+  }
+  .aone{
+    margin-left: 2rem;
+    width: 8rem;
+  }
+  .bottom-text, .bottom-text a{
+    font-size: 0.7rem;
+  }
   header {
     background-color: white;
 
